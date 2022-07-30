@@ -1,0 +1,282 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0 5px;
+}
+
+header.sticky {
+    background-color: #222529;
+    padding: 8px 0;
+    transition: all 0.3s;
+}
+
+.navbar-menu .congrid .item1 .logo>h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.navbar-menu .item2 #bars_menu {
+    display: none;
+}
+
+.navbar-menu .congrid {
+    /* padding: 0 100px; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    z-index: 100000;
+}
+
+
+.navbar-menu {
+    max-width: 100%;
+    padding: 5px 0;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 100000;
+}
+
+.navbar-menu .item2 li {
+    display: inline;
+    margin: 0 30px;
+}
+
+.navbar-menu .item2 ul {
+    margin: 0;
+}
+
+.navbar-menu .item2 li a {
+    color: #fff;
+}
+
+.navbar-menu .item2 .menu {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu .item1 {
+    display: flex;
+    align-items: center;
+}
+
+.caption-content {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caption-content .inner {
+    position: absolute;
+    text-align: center;
+    z-index: 10000;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.caption-content .inner .ptop15 {
+    margin: 30px;
+}
+
+.caption-content .inner .ptop15 a {
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: #0090f0;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 300;
+    transition: all 0.3s;
+}
+
+.caption-content .inner .ptop15 a:hover {
+    background-color: #fff;
+    color: #222529;
+}
+
+.caption-content img {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    object-fit: cover;
+}
+
+main {
+    max-width: 100%;
+    height: 100%;
+}
+
+main .service .service-title {  
+    text-align: center;
+    padding-top: 3rem;
+}
+
+main .service .service-title p {
+    margin: 0;
+}
+
+
+.about_us {
+    background-color: #eee;
+    max-width: 100%;
+}
+
+.about_us .rowabout .boxabout1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.about_us .rowabout .boxabout2 h6 {
+    font-size: 20px;
+}
+
+.about_us .rowabout .boxabout2 .aboutp2 {
+    font-size: 18px;
+}
+
+/* Contact!!! */
+
+.contact_me .contact_form>h1 {
+    margin: 1rem 2rem 3rem 1.5rem;
+}
+
+.contact_me .contact_form {
+    box-shadow: 0 0 40px 20px #ccc;
+    border-top: 5px solid #0090f0;
+}
+
+
+#iconlocation {
+    font-size: 35px;
+    margin-right: 1.5rem;
+    background: #0090f0;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+}
+#iconphone {
+    font-size: 35px;
+    margin-right: 1.5rem;
+    background: #0090f0;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+}
+#iconcomment {
+    font-size: 35px;
+    margin-right: 1.5rem;
+    background: #0090f0;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.contact_me .contact_form .conall .contact1 {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+    padding: 0 0 1.5rem;
+}
+.contact_me .contact_form .conall .contact2 {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+    padding: 1.5rem 0;
+}
+.contact_me .contact_form .conall .contact3 {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+    padding: 1.5rem 0 2rem;
+}
+.contact_me .contact_form .conall .contact1 p {
+    margin: 0;
+}
+.contact_me .contact_form .conall .contact2 p {
+    margin: 0;
+}
+.contact_me .contact_form .conall .contact3 p {
+    margin: 0;
+}
+
+/* Footer!!! */
+
+.footer {
+    background-color: #222529;
+    padding: 3rem 0 0;
+    max-width: 100%;
+    height: 100%;
+}
+
+.footer .footer_img {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .footer_about {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer .footer_about ul {
+    margin: 10px 0 10px;
+}
+
+.footer .footer_about li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+.footer .footer_about li a {
+    transition: all 0.1s;
+    color: #fff;
+}
+.footer .footer_about li a:hover {
+    color: #0090f0;
+}
+
+.footer .linkfooter li {
+    display: inline;
+    margin: 0 0.3rem;
+}
+.footer .linkfooter ul {
+    padding: 1rem;
+    margin: 0;
+}
+
+.footer .linkfooter {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .linkfooter li a {
+    margin: 0;
+    color: #fff;
+    transition: all 0.1s;
+}
+.footer .linkfooter li a:hover {
+    color: #0090f0;
+}
+
+.footer .hr_footer {
+    margin: 1rem 0;
+    border: 0.1px solid #0090f0;
+}
